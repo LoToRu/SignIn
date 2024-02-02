@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="control.php" method="POST">
+        
+        <div class="input">
+            <input type="text" name="username" required="required">
+            <span>username</span>
+        </div>
+        
+        <div class="input">
+            <input type="password" name="password" id="password" maxlength="12" required="required">
+            <span>password</span>
+        </div>
+        
+        <div class="input">
+            <input type="password" name="confirm-password" id="c-password" maxlength="12" required="required">
+            <span>confirm password</span>
+        </div>
+        
+        <div class="submit">
+            <input type="submit" id="button" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>
